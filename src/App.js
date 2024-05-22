@@ -1,20 +1,16 @@
-import logo from './gym.gif';
+import ott_img from './ott3.webp';
 import './App.css';
+import Navbar from './Navbar.js';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} style={{width:"250px", height:"200px"}} className="" alt="logo" />
-        
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          The Gym App
-        </a>
+       
+      <header >
+      <div style={{}}><Navbar /></div>
+        <img src={ott_img} style={{width:"450px", height:"220px", marginTop:"10px"}} className="" alt="logo" />
+        <br />
+        <a href="#" rel="noopener noreferrer"> The Ott App </a>
       </header>
     </div>
   );
